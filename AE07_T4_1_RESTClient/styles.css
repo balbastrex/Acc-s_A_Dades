@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container {
+    display: inherit;
+    flex-direction: inherit;
+    align-items: inherit;
+    margin-top: 100px;
+    box-shadow: 0px 0px 18px 10px rgba(0,0,0,0.5);
+}
+
+h1 {
+    text-decoration: underline;
+    margin-top: 40px;
+}
+
+#jokes {
+    display: inherit;
+    flex-direction: inherit;
+    align-items: inherit;
+    margin: 10px;
+    padding: 10px;
+}
+
+#jokes > input {
+    display: inherit;
+    flex-direction: inherit;
+    align-items: inherit;
+    margin: 10px 15px;
+    padding: 1em;
+}
+
+#buttons {
+    display: inherit; 
+    flex-direction: row;
+}
+
+p > button {
+    margin: 1rem 3rem;
+}
